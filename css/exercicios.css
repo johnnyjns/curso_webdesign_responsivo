@@ -11,7 +11,7 @@ header {
 .logo,
 .secao {
   float: left;
-  width: 33%;
+  width: 100%;
   padding: 0 1%;
 }
 .mini {
@@ -23,4 +23,17 @@ header {
 }
 .barra-nav {
     margin: 0.4em 0;
+}
+.secao {
+    width: 100%;
+}
+@media (min-width: 600px) {
+    .secao {
+        width: 50%;
+    }
+}
+@media (min-width: 1000px) {
+    .secao {
+        width: 33.333%;
+    }
 }
